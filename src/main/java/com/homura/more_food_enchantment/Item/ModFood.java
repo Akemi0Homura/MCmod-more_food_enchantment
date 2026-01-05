@@ -34,24 +34,25 @@ public class ModFood {
     /**
      * 附魔金
      */
-    //附魔金牛扒，获得8点饥饿值，20点饱食度，获得 再生效果2 瞬间治疗2 力量2 均为一分钟
+    //附魔金牛扒，获得8点饥饿值，20点饱食度，获得 再生效果2 瞬间治疗2 力量2 均为两分钟
     public static final FoodComponent BEEF=new FoodComponent.Builder().hunger(8).saturationModifier(1.25f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 1200, 1),1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 2400, 1),1.0f)
             .statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_HEALTH, 1, 1),1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 1200, 1),1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 2400, 1),1.0f)
             .build();
 
-    //附魔金猪扒，获得14点饥饿值，5点饱食度。迅捷2 跳跃提升2 隐身 均为三分钟
+    //附魔金猪扒，获得14点饥饿值，5点饱食度。迅捷2 跳跃提升2 隐身 均为六分钟
     public static final FoodComponent PORK=new FoodComponent.Builder().hunger(14).saturationModifier(0.2f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 3600, 1),1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 3600, 1),1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 3600, 0),1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 7200, 1),1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 7200, 1),1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 7200, 0),1.0f)
             .build();
 
-    //附魔金鲑鱼，饿值和饱食度对齐金胡萝卜。获得 水肺效果 夜视 海豚的恩惠(就是加游泳速度) 均为三分钟
+    //附魔金鲑鱼，饿值和饱食度对齐金胡萝卜。获得 水肺效果 夜视 海豚的恩惠(就是加游泳速度) 均为六分钟
     public static final FoodComponent REDFISH=new FoodComponent.Builder().hunger(6).saturationModifier(1.2f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 3600, 0),1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 3600, 0),1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 3600, 0),1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 7200, 0),1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 7200, 0),1.0f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 7200, 0),1.0f)
             .build();
 }
+
