@@ -24,8 +24,5 @@ For golden foods, two crafting recipes are provided, depending on your balance p
 <br>
 **注意：这些食物只能合成获得！**<br>
 **Note: These foods can only be obtained through crafting!**<br>
-<br>
-如果你有比较好的点子，可以在github向我发起issue<br>
-If you have any good ideas, you can open an issue on GitHub to let me know.<br>
 
 [下载平台/Download](https://modrinth.com/mod/mcmod-more-food-enchantment)
