@@ -25,4 +25,4 @@ recipe<br>
 **注意：这些食物只能合成获得！**<br>
 **Note: These foods can only be obtained through crafting!**<br>
 
-[下载平台/Download](https://modrinth.com/mod/mcmod-more-food-enchantment)
+[下载平台/Download](https://modrinth.com/project/D8r4paj2)
